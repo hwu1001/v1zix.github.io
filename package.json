@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build && gh-pages -d public -b master",
+    "deploy": "yarn run clean && gatsby build && gh-pages -d public --user \"Henry Wu <hywu925@gmail.com>\" -b master",
     "clean": "rimraf .cache public",
     "lint:js": "eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
