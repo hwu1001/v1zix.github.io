@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  title: 'Blog by Henry Wu',
+  title: 'Dev Notes',
   subtitle: 'Coding and stuff.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -25,7 +25,7 @@ module.exports = {
   author: {
     name: 'Henry Wu',
     photo: '/placeholder-image.png',
-    bio: 'I never know what to put here',
+    bio: '(╯°□°)╯︵ ┻━┻',
     contacts: {
       email: 'hywu925@gmail.com',
       telegram: '#',
